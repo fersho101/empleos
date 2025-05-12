@@ -31,3 +31,38 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+# Eclipse específico
+.classpath
+.project
+.settings/
+bin/
+tmp/
+
+# Archivos generados por el IDE
+*.launch
+*.pydevproject
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación de Java
+*.class
+*.war
+*.ear
+
+# Archivos de salida de logs
+*.log
+
+# Archivos de dependencias (si no usas Maven/Gradle)
+lib/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
